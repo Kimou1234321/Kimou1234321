@@ -27,18 +27,13 @@
 </td>
 </tr>
 <tr>
-<td valign="top" align="center">
-<a href="#top"><img src="assets/card-arwood.png" width="100%" alt="ARWood-tech: on-device YOLOv8 log segmentation and stacked timber volume"></a>
-</td>
-<td valign="top" align="center">
-<a href="#top"><img src="assets/card-drones.png" width="100%" alt="Drone swarm patterns: graph neural networks for decentralized formation control"></a>
+<td colspan="2" align="center">
+<a href="#top"><img src="assets/card-arwood.png" width="49%" alt="ARWood-tech: on-device YOLOv8 log segmentation and stacked timber volume"></a>
 </td>
 </tr>
 </table>
 
 <p align="center">AgriGraph follows <a href="https://arxiv.org/abs/2512.19970">Spatio-Temporal Graph Neural Networks for Dairy Farm Sustainability Forecasting and Counterfactual Policy Analysis</a>.</p>
-
-<p align="center"><strong>Want to see more details about the private repos? Click on <a href="https://rahaliakram.me">rahaliakram.me</a></strong></p>
 
 <h2>Contributions</h2>
 
@@ -53,22 +48,45 @@
 <a href="https://github.com/AmirBnsL/research_assistant_app"><img src="assets/card-research.png" width="100%" alt="Contribution: agentic arXiv research assistant"></a>
 </td>
 </tr>
+<tr>
+<td colspan="2" align="center">
+<a href="https://github.com/AmirBnsL/pattern-emergence-drone-swarms-gnn"><img src="assets/card-drones.png" width="49%" alt="Contribution: drone swarm patterns with graph neural networks"></a>
+</td>
+</tr>
 </table>
 
 <p align="center">
 <a href="https://github.com/AmirBnsL/breast-cancer-unsupervised-app">Breast cancer slides</a>
 &nbsp;·&nbsp;
 <a href="https://github.com/AmirBnsL/research_assistant_app">Research assistant</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/AmirBnsL/pattern-emergence-drone-swarms-gnn">Drone swarm patterns</a>
 </p>
 
 <h2>Technologies</h2>
 
+<h3>Practical</h3>
+
 <p align="center">
-<a href="#top"><img src="assets/skill-modeling.png" width="100%" alt="Modeling: Python, PyTorch, PyTorch Geometric, scikit-learn, NumPy, pandas"></a>
+<a href="#top"><img src="assets/skill-p-modeling.png" width="100%" alt="Modeling: Python, PyTorch, PyTorch Geometric, scikit-learn, NumPy, pandas"></a>
 <br>
-<a href="#top"><img src="assets/skill-vision.png" width="100%" alt="Vision and language: DINOv2, YOLO, CTransPath, RAG, LLMs, NLP"></a>
+<a href="#top"><img src="assets/skill-p-vision.png" width="100%" alt="Vision: DINOv2, YOLO, CTransPath"></a>
 <br>
-<a href="#top"><img src="assets/skill-data.png" width="100%" alt="Data systems: PostgreSQL, MongoDB, Cassandra, Neo4j, Oracle, Spark"></a>
+<a href="#top"><img src="assets/skill-p-delivery.png" width="100%" alt="Around the models: FastAPI, React, Node.js, NestJS, Kotlin, PostgreSQL, MongoDB, Docker"></a>
+</p>
+
+<h3>Academic</h3>
+
+<p align="center">
+<a href="#top"><img src="assets/skill-a-learning.png" width="100%" alt="Learning: machine learning and deep learning in Python and PyTorch"></a>
 <br>
-<a href="#top"><img src="assets/skill-languages.png" width="100%" alt="Languages: Python, parallel computation in C, numerical analysis in R"></a>
+<a href="#top"><img src="assets/skill-a-language.png" width="100%" alt="RAG and LLMs: retrieval-augmented generation, large language models, and NLP"></a>
+<br>
+<a href="#top"><img src="assets/skill-a-spark.png" width="100%" alt="Scale: Apache Spark, MLlib, Spark SQL, and GraphX"></a>
+<br>
+<a href="#top"><img src="assets/skill-a-hpc.png" width="100%" alt="HPC: parallel numerical computation in C"></a>
+<br>
+<a href="#top"><img src="assets/skill-a-data.png" width="100%" alt="Data stores: PostgreSQL, Oracle, MongoDB, Cassandra, Neo4j"></a>
+<br>
+<a href="#top"><img src="assets/skill-a-numerics.png" width="100%" alt="Numerics: numerical analysis in R"></a>
 </p>
