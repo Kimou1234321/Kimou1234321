@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akram Rahali</title>
+<style>
+  :root {
+    --gold: #e0be82;
+    --ink: #f7f3ea;
+    --muted: #bac6c0;
+    --soft: #9caaa4;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    font-family: "Segoe UI", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    cursor: default;
+    background:
+      radial-gradient(900px 520px at 92% 8%, rgba(224, 190, 130, 0.14), transparent 55%),
+      radial-gradient(700px 480px at -10% 40%, rgba(40, 90, 78, 0.45), transparent 60%),
+      linear-gradient(165deg, #0c1422 0%, #10261f 48%, #16352c 100%);
+    min-height: 100vh;
+  }
+  a { color: var(--gold); text-decoration: none; cursor: pointer; }
+  a:hover { color: #f6ead0; }
+  ::selection { background: rgba(224, 190, 130, 0.35); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 72px 64px 96px; }
+  .hero { position: relative; min-height: 280px; padding-left: 28px; }
+  .bar {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 3px;
+    height: 210px;
+    background: var(--gold);
+  }
+  .eyebrow {
+    margin: 0 0 18px;
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+  h1 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+  }
+  .rule { width: 132px; height: 3px; background: var(--gold); border: 0; margin: 22px 0; }
+  .role {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+  }
+  .school { margin: 14px 0 0; color: var(--soft); font-size: 16px; }
+  .graph {
+    position: absolute;
+    right: -20px;
+    top: -10px;
+    width: 340px;
+    height: 300px;
+    pointer-events: none;
+  }
+  .focus {
+    margin: 54px 0 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 26px;
+  }
+  .focus span { color: var(--gold); padding: 0 10px; }
+  .lede { margin: 14px 0 0; color: var(--soft); max-width: 640px; }
+  section { margin-top: 64px; }
+  .label {
+    margin: 0 0 10px;
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+  }
+  .label-rule { width: 64px; height: 2px; background: var(--gold); border: 0; margin: 0 0 22px; }
+  h2 {
+    margin: 0 0 8px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.15;
+  }
+  .kicker { margin: 0 0 14px; color: var(--gold); font-style: italic; }
+  p { margin: 0; color: var(--muted); max-width: 760px; }
+  article { padding: 8px 0 26px; border-bottom: 1px solid rgba(224, 190, 130, 0.55); margin-bottom: 26px; }
+  article h2 { font-size: 34px; }
+  .stack { margin-top: 14px; color: var(--gold); font-size: 16px; }
+  .cta { margin-top: 36px; text-align: center; }
+  .cta p { margin: 0 auto 8px; color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 26px; max-width: none; }
+  .cta a { font-family: Georgia, "Times New Roman", serif; font-size: 28px; font-weight: 700; border-bottom: 2px solid var(--gold); }
+  .groups { display: grid; gap: 36px; }
+  .row { display: grid; grid-template-columns: 220px 1fr; gap: 18px; padding: 8px 0; }
+  .row strong { color: var(--gold); font-size: 16px; font-weight: 700; }
+  .row span { color: var(--ink); }
+  .note { margin-top: 18px; color: var(--soft); }
+  .foot { margin-top: 48px; color: var(--gold); font-size: 16px; }
+  @media (max-width: 800px) {
+    .wrap { padding: 48px 24px 72px; }
+    h1 { font-size: 48px; }
+    .role, .focus, .cta p { font-size: 22px; }
+    .graph { display: none; }
+    .row { grid-template-columns: 1fr; gap: 4px; }
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="hero">
+    <div class="bar"></div>
+    <p class="eyebrow">Fifth year · ESI-SBA</p>
+    <h1>Akram Rahali</h1>
+    <hr class="rule">
+    <p class="role">Artificial Intelligence &amp; Data Science</p>
+    <p class="school">École Supérieure en Informatique · Sidi Bel Abbès</p>
+    <svg class="graph" viewBox="0 0 340 300" aria-hidden="true">
+      <g fill="none" stroke="#e0c48c" stroke-width="1.2" opacity="0.85">
+        <path d="M40 60 L120 40 L200 90 L150 150 L70 130 Z" opacity="0.55"/>
+        <path d="M120 40 L230 70 L280 140 L200 90" opacity="0.45"/>
+        <path d="M200 90 L260 200 L150 150 L210 230 L280 140" opacity="0.4"/>
+        <path d="M70 130 L40 200 L150 240 L150 150" opacity="0.35"/>
+        <path d="M230 70 L300 40 L310 120 L280 140" opacity="0.4"/>
+      </g>
+      <g fill="#f4e4c4">
+        <circle cx="40" cy="60" r="4"/><circle cx="120" cy="40" r="5"/>
+        <circle cx="200" cy="90" r="4.5"/><circle cx="150" cy="150" r="5"/>
+        <circle cx="70" cy="130" r="3.5"/><circle cx="230" cy="70" r="4"/>
+        <circle cx="280" cy="140" r="5"/><circle cx="260" cy="200" r="3.5"/>
+        <circle cx="210" cy="230" r="4"/><circle cx="40" cy="200" r="3"/>
+        <circle cx="150" cy="240" r="4"/><circle cx="300" cy="40" r="3.5"/>
+        <circle cx="310" cy="120" r="3"/>
+      </g>
+    </svg>
+  </header>
+
+  <p class="focus">Forecasting <span>·</span> Computer vision <span>·</span> Graph models <span>·</span> RAG &amp; LLMs</p>
+  <p class="lede">Data science and AI come first. The applications are how that work gets used.</p>
+
+  <section>
+    <p class="label">INTERNSHIP</p>
+    <hr class="label-rule">
+    <h2>Algérie Télécom · DOT Khenchela</h2>
+    <p class="kicker">Telecom billing · local client–server</p>
+    <p>I designed and built a billing platform for residential and enterprise subscribers. Node.js, Express, JavaScript, HTML/CSS, and EJS sit on MongoDB collections comptes, compte_corporate, corporate_facture, conso_client, and cycle-facture, with role-based access for administrative, service, corporate, and client users. The platform handles subscriber management, bimonthly consumption and subscription fees, payment and debt tracking, and dynamic PDF invoices.</p>
+  </section>
+
+  <section>
+    <p class="label">PROJECTS</p>
+    <hr class="label-rule">
+    <p class="note">Private repositories.</p>
+
+    <article>
+      <h2>AgriGraph</h2>
+      <p class="kicker">County-scale dairy sustainability · Ireland</p>
+      <p>A direct platform on the paper <a href="https://arxiv.org/abs/2512.19970">Spatio-Temporal Graph Neural Networks for Dairy Farm Sustainability Forecasting and Counterfactual Policy Analysis</a>. ICBF herd records are augmented with a variational autoencoder, scored into four operational pillars, and forecast with a spatio-temporal graph neural network, with a map for benchmarks and counterfactual policy levers.</p>
+      <p class="stack">Python · PyTorch · PyTorch Geometric · FastAPI · PostgreSQL · React</p>
+    </article>
+
+    <article>
+      <h2>Algerian Flower</h2>
+      <p class="kicker">Botanical field relevés</p>
+      <p>A photo of a vegetation plot is embedded with a fine-tuned DINOv2 vision transformer and scored for species abundance, dominance, and Braun-Blanquet cover.</p>
+      <p class="stack">Python · PyTorch · DINOv2 · FastAPI · PostgreSQL · React</p>
+    </article>
+
+    <article>
+      <h2>ARWood-tech</h2>
+      <p class="kicker">On-device stacked timber</p>
+      <p>An Android app segments log ends in a photo with YOLOv8, calibrates scale from two reference points, and computes wood volume.</p>
+      <p class="stack">Kotlin · Jetpack Compose · YOLOv8 · TensorFlow Lite</p>
+    </article>
+
+    <article>
+      <h2>BoviTrack</h2>
+      <p class="kicker">Livestock operations · Algeria</p>
+      <p>Farmers, veterinarians, and zootechnicians share one mobile app for herd records, vet visits, feed rations with nutritional totals, and professional contracts.</p>
+      <p class="stack">TypeScript · React Native · NestJS · PostgreSQL</p>
+    </article>
+
+    <div class="cta">
+      <p>Want to see more details about the private repos?</p>
+      <a href="https://rahaliakram.me">rahaliakram.me</a>
+    </div>
+  </section>
+
+  <section>
+    <p class="label">TECHNOLOGIES</p>
+    <hr class="label-rule">
+    <div class="groups">
+      <div>
+        <p class="label">PRACTICAL</p>
+        <div class="row"><strong>Modeling</strong><span>Python, PyTorch, PyTorch Geometric, scikit-learn, NumPy, pandas</span></div>
+        <div class="row"><strong>Vision</strong><span>DINOv2, YOLO, CTransPath</span></div>
+        <div class="row"><strong>Around the models</strong><span>FastAPI, React, Node.js, NestJS, Kotlin, PostgreSQL, MongoDB, Docker</span></div>
+        <p class="note">Graph learning, classical ML, gradient boosting, and the vision backbones above. The APIs and interfaces sit around that work.</p>
+      </div>
+      <div>
+        <p class="label">ACADEMIC</p>
+        <div class="row"><strong>Learning</strong><span>Machine learning and deep learning in Python and PyTorch</span></div>
+        <div class="row"><strong>RAG &amp; LLMs</strong><span>Retrieval-augmented generation, large language models, and NLP</span></div>
+        <div class="row"><strong>Scale</strong><span>Apache Spark — MLlib, Spark SQL, and GraphX</span></div>
+        <div class="row"><strong>HPC</strong><span>Parallel numerical computation in C</span></div>
+        <div class="row"><strong>Data stores</strong><span>PostgreSQL, Oracle, MongoDB, Cassandra, Neo4j</span></div>
+        <div class="row"><strong>Numerics</strong><span>Numerical analysis in R</span></div>
+      </div>
+    </div>
+    <p class="foot">ESI-SBA · fifth year · Artificial Intelligence &amp; Data Science</p>
+  </section>
+</main>
+</body>
+</html>
