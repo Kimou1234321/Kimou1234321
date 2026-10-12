@@ -1,117 +1,209 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner.png" alt="Akram Rahali — fifth-year Artificial Intelligence and Data Science student at ESI-SBA, Sidi Bel Abbès" width="100%" />
+</p>
 
-# Akram Rahali
+<p align="center">
+  <em>Applied machine learning, carried through to a product: forecasting, computer vision, graph models, and the services around them.</em>
+</p>
 
-**Artificial Intelligence & Data Science** · fifth year  
-École Supérieure en Informatique de Sidi Bel Abbès · **ESI-SBA**
-
-[rahaliakram.me](https://rahaliakram.me)
-
-</div>
-
-I build applied machine-learning systems and the products around them: forecasting, computer vision, graph models, and the full-stack apps that make those models usable.
-
----
+<p align="center">
+  <img alt="Forecasting" src="https://img.shields.io/badge/Forecasting-0e1622?style=for-the-badge&labelColor=c4a35a&color=0e1622" />
+  <img alt="Computer vision" src="https://img.shields.io/badge/Computer_vision-0e1622?style=for-the-badge&labelColor=c4a35a&color=0e1622" />
+  <img alt="Graph models" src="https://img.shields.io/badge/Graph_models-0e1622?style=for-the-badge&labelColor=c4a35a&color=0e1622" />
+  <img alt="Full stack" src="https://img.shields.io/badge/Full_stack-0e1622?style=for-the-badge&labelColor=c4a35a&color=0e1622" />
+</p>
 
 ## Internship
 
-**Algérie Télécom · DOT Khenchela**
+<table>
+<tr>
+<td width="33%" valign="top">
+<b>Algérie Télécom</b><br/>
+DOT Khenchela<br/>
+<sub>Telecom billing</sub>
+</td>
+<td width="34%" valign="top">
+<b>Local client–server</b><br/>
+Node.js · Express · EJS<br/>
+<sub>MongoDB</sub>
+</td>
+<td width="33%" valign="top">
+<b>Four roles</b><br/>
+Admin · service · corporate · client<br/>
+<sub>Access control on every workflow</sub>
+</td>
+</tr>
+</table>
 
-I designed and implemented a full-stack billing platform on a local client–server architecture. Built with Node.js, Express, JavaScript, HTML/CSS, and EJS, backed by MongoDB, it models `comptes`, `compte_corporate`, `corporate_facture`, `conso_client`, and `cycle-facture`, with role-based access for administrative, service, corporate, and client users. The platform covers residential and enterprise subscriber management, bimonthly consumption and fee calculation, payment and debt tracking, and dynamic PDF invoices.
+I designed and implemented a full-stack billing platform for residential and enterprise subscribers. The database is split across `comptes`, `compte_corporate`, `corporate_facture`, `conso_client`, and `cycle-facture`. It calculates bimonthly consumption and subscription fees, tracks payments and debt as they happen, and generates dynamic PDF invoices.
 
----
+<p>
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-0e1622?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" />
+  <img alt="Express" src="https://img.shields.io/badge/Express-0e1622?style=for-the-badge&logo=express&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0e1622?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-0e1622?style=for-the-badge&logo=mongodb&logoColor=47A248" />
+</p>
 
 ## Projects
 
-### AgriGraph
-County-scale dairy sustainability forecasting for Ireland’s 26 counties. The platform is a direct implementation of [*Spatio-Temporal Graph Neural Networks for Dairy Farm Sustainability Forecasting and Counterfactual Policy Analysis*](https://arxiv.org/abs/2512.19970): ICBF herd records are augmented with a variational autoencoder, scored into four operational pillars, and forecast with a spatio-temporal graph neural network, with map-based benchmarks and counterfactual policy levers.
+Private repositories. A short note on each one is below.
 
-`Python` `PyTorch` `PyTorch Geometric` `FastAPI` `PostgreSQL` `React`
+<table>
+<tr>
+<td width="88" valign="top">
+<img src="assets/01.png" width="72" alt="01" />
+</td>
+<td valign="top">
+<b>AgriGraph</b><br/>
+<sub>County-scale dairy sustainability · Ireland</sub>
+<br/><br/>
+A direct platform on the paper <a href="https://arxiv.org/abs/2512.19970">Spatio-Temporal Graph Neural Networks for Dairy Farm Sustainability Forecasting and Counterfactual Policy Analysis</a>. ICBF herd records are augmented with a variational autoencoder, scored into four operational pillars, and forecast with a spatio-temporal graph neural network, with a map for benchmarks and counterfactual policy levers.
+<br/><br/>
+<img alt="Python" src="https://img.shields.io/badge/Python-0e1622?style=flat-square&logo=python&logoColor=FFD43B" />
+<img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-0e1622?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
+<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-0e1622?style=flat-square&logo=fastapi&logoColor=009688" />
+<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-0e1622?style=flat-square&logo=postgresql&logoColor=4169E1" />
+<img alt="React" src="https://img.shields.io/badge/React-0e1622?style=flat-square&logo=react&logoColor=61DAFB" />
+</td>
+</tr>
+</table>
 
-### Algerian Flower
-Field tool for botanical relevés. A photo of a vegetation plot is embedded with a fine-tuned DINOv2 vision transformer and scored for species abundance, dominance, and Braun-Blanquet cover.
+<br/>
 
-`Python` `PyTorch` `DINOv2` `XGBoost` `FastAPI` `PostgreSQL` `React`
+<table>
+<tr>
+<td width="88" valign="top">
+<img src="assets/02.png" width="72" alt="02" />
+</td>
+<td valign="top">
+<b>Algerian Flower</b><br/>
+<sub>Botanical field relevés</sub>
+<br/><br/>
+A photo of a vegetation plot is embedded with a fine-tuned DINOv2 vision transformer and scored for species abundance, dominance, and Braun-Blanquet cover.
+<br/><br/>
+<img alt="Python" src="https://img.shields.io/badge/Python-0e1622?style=flat-square&logo=python&logoColor=FFD43B" />
+<img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-0e1622?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
+<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-0e1622?style=flat-square&logo=fastapi&logoColor=009688" />
+<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-0e1622?style=flat-square&logo=postgresql&logoColor=4169E1" />
+<img alt="React" src="https://img.shields.io/badge/React-0e1622?style=flat-square&logo=react&logoColor=61DAFB" />
+</td>
+</tr>
+</table>
 
-### ARWood-tech
-On-device estimator for stacked timber. An Android app segments log ends in a photo with YOLOv8, calibrates scale from two reference points, and computes wood volume.
+<br/>
 
-`Kotlin` `Jetpack Compose` `YOLOv8` `TensorFlow Lite`
+<table>
+<tr>
+<td width="88" valign="top">
+<img src="assets/03.png" width="72" alt="03" />
+</td>
+<td valign="top">
+<b>ARWood-tech</b><br/>
+<sub>On-device stacked timber estimation</sub>
+<br/><br/>
+An Android app segments log ends in a photo with YOLOv8, calibrates scale from two reference points, and computes wood volume.
+<br/><br/>
+<img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-0e1622?style=flat-square&logo=kotlin&logoColor=7F52FF" />
+<img alt="Android" src="https://img.shields.io/badge/Android-0e1622?style=flat-square&logo=android&logoColor=3DDC84" />
+<img alt="YOLOv8" src="https://img.shields.io/badge/YOLOv8-0e1622?style=flat-square&logo=opencv&logoColor=white" />
+<img alt="TensorFlow Lite" src="https://img.shields.io/badge/TFLite-0e1622?style=flat-square&logo=tensorflow&logoColor=FF6F00" />
+</td>
+</tr>
+</table>
 
-### BoviTrack
-Livestock operations platform for Algerian farms. Farmers, veterinarians, and zootechnicians share one mobile app for herd records, vet visits, feed rations with nutritional totals, and professional contracts.
+<br/>
 
-`TypeScript` `React Native` `Expo` `NestJS` `PostgreSQL`
+<table>
+<tr>
+<td width="88" valign="top">
+<img src="assets/04.png" width="72" alt="04" />
+</td>
+<td valign="top">
+<b>BoviTrack</b><br/>
+<sub>Livestock operations · Algeria</sub>
+<br/><br/>
+Farmers, veterinarians, and zootechnicians share one mobile app for herd records, vet visits, feed rations with nutritional totals, and professional contracts.
+<br/><br/>
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-0e1622?style=flat-square&logo=typescript&logoColor=3178C6" />
+<img alt="React Native" src="https://img.shields.io/badge/React_Native-0e1622?style=flat-square&logo=react&logoColor=61DAFB" />
+<img alt="NestJS" src="https://img.shields.io/badge/NestJS-0e1622?style=flat-square&logo=nestjs&logoColor=E0234E" />
+<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-0e1622?style=flat-square&logo=postgresql&logoColor=4169E1" />
+</td>
+</tr>
+</table>
 
-### Breast cancer histopathology
-Slide-level tissue classification from histopathology patches. A Gradio app runs CTransPath embeddings through classical and semi-supervised models and aggregates patch votes into a slide label.
+<br/>
 
-`Python` `PyTorch` `CTransPath` `scikit-learn` `XGBoost` `Gradio`
+<table>
+<tr>
+<td width="88" valign="top">
+<img src="assets/05.png" width="72" alt="05" />
+</td>
+<td valign="top">
+<b>Breast cancer histopathology</b><br/>
+<sub>Slide-level tissue classification</sub>
+<br/><br/>
+A Gradio app classifies histopathology patches with CTransPath embeddings and classical and semi-supervised models, then aggregates the votes into a slide label.
+<br/><br/>
+<img alt="Python" src="https://img.shields.io/badge/Python-0e1622?style=flat-square&logo=python&logoColor=FFD43B" />
+<img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-0e1622?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
+<img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-0e1622?style=flat-square&logo=scikitlearn&logoColor=F7931E" />
+<img alt="Gradio" src="https://img.shields.io/badge/Gradio-0e1622?style=flat-square&logo=gradio&logoColor=F97316" />
+</td>
+</tr>
+</table>
 
-### Pattern emergence in drone swarms
-Decentralized swarm control with graph neural networks. PyFlyt episodes become communication graphs; the models learn formation assignment and local setpoints, then a Three.js viewer compares centralized and decentralized flight.
+<br/>
 
-`Python` `PyTorch Geometric` `PyFlyt` `FastAPI` `React` `Three.js`
-
-### Research assistant
-Agentic reader for scientific literature. It searches arXiv, ingests papers into a local vector store, and answers from session-scoped retrieval with a cross-encoder reranker.
-
-`Python` `sentence-transformers` `ChromaDB` `FastAPI` `Gradio`
-
-<div align="center">
-
-**Want to see more details about the private repos? Click on [rahaliakram.me](https://rahaliakram.me)**
-
-</div>
-
----
+<p align="center">
+  <b>Want to see more details about the private repos? Click on <a href="https://rahaliakram.me">rahaliakram.me</a></b>
+  <br/><br/>
+  <a href="https://rahaliakram.me">
+    <img alt="rahaliakram.me" src="https://img.shields.io/badge/rahaliakram.me-0e1622?style=for-the-badge&label=open&labelColor=c4a35a&color=0e1622" />
+  </a>
+</p>
 
 ## Technologies
 
 ### Practical
-Skills exercised in the projects and the internship: models in production paths, and the services around them.
+What the projects and the internship actually run on.
 
-<div align="center">
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-0e1622?style=for-the-badge&logo=python&logoColor=FFD43B" />
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-0e1622?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" />
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-0e1622?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" />
+  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-0e1622?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img alt="pandas" src="https://img.shields.io/badge/pandas-0e1622?style=for-the-badge&logo=pandas&logoColor=white" />
+  <br/><br/>
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-0e1622?style=for-the-badge&logo=fastapi&logoColor=009688" />
+  <img alt="React" src="https://img.shields.io/badge/React-0e1622?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-0e1622?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" />
+  <img alt="NestJS" src="https://img.shields.io/badge/NestJS-0e1622?style=for-the-badge&logo=nestjs&logoColor=E0234E" />
+  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-0e1622?style=for-the-badge&logo=kotlin&logoColor=7F52FF" />
+  <br/><br/>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-0e1622?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
+  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-0e1622?style=for-the-badge&logo=mongodb&logoColor=47A248" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-0e1622?style=for-the-badge&logo=docker&logoColor=2496ED" />
+</p>
 
-<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-<img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img alt="pandas" src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<br/>
-<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img alt="React Native" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img alt="NestJS" src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
-<br/>
-<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-<img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-
-</div>
-
-Graph learning with PyTorch Geometric, classical ML and gradient boosting, vision backbones (DINOv2, YOLO, CTransPath), retrieval with sentence-transformers and ChromaDB, and the APIs and interfaces that serve them.
+Graph learning with PyTorch Geometric, classical ML and gradient boosting, and vision backbones (DINOv2, YOLO, CTransPath), plus the APIs and interfaces in front of them.
 
 ### Academic
-Coursework at ESI-SBA, beyond what these repositories show.
+Coursework at ESI-SBA, beyond these repositories.
 
-<div align="center">
-
-<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img alt="Apache Spark" src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
-<img alt="R" src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-<img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
-<br/>
-<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img alt="Oracle" src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
-<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-<img alt="Cassandra" src="https://img.shields.io/badge/Cassandra-1287B1?style=for-the-badge&logo=apachecassandra&logoColor=white" />
-<img alt="Neo4j" src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white" />
-
-</div>
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-0e1622?style=for-the-badge&logo=python&logoColor=FFD43B" />
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-0e1622?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" />
+  <img alt="Apache Spark" src="https://img.shields.io/badge/Apache_Spark-0e1622?style=for-the-badge&logo=apachespark&logoColor=E25A1C" />
+  <img alt="R" src="https://img.shields.io/badge/R-0e1622?style=for-the-badge&logo=r&logoColor=276DC3" />
+  <img alt="C" src="https://img.shields.io/badge/C-0e1622?style=for-the-badge&logo=c&logoColor=A8B9CC" />
+  <br/><br/>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-0e1622?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
+  <img alt="Oracle" src="https://img.shields.io/badge/Oracle-0e1622?style=for-the-badge&logo=oracle&logoColor=F80000" />
+  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-0e1622?style=for-the-badge&logo=mongodb&logoColor=47A248" />
+  <img alt="Cassandra" src="https://img.shields.io/badge/Cassandra-0e1622?style=for-the-badge&logo=apachecassandra&logoColor=1287B1" />
+  <img alt="Neo4j" src="https://img.shields.io/badge/Neo4j-0e1622?style=for-the-badge&logo=neo4j&logoColor=4581C3" />
+</p>
 
 | Area | What I studied |
 | --- | --- |
@@ -121,11 +213,3 @@ Coursework at ESI-SBA, beyond what these repositories show.
 | High-performance computing | Parallel numerical computation in C |
 | Databases | Relational SQL (PostgreSQL, Oracle Database) and NoSQL (MongoDB, Cassandra, Neo4j) |
 | Numerical analysis | Numerical methods and statistical computing in R |
-
----
-
-<div align="center">
-
-[rahaliakram.me](https://rahaliakram.me)
-
-</div>
